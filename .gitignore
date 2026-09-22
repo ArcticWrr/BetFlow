@@ -1,0 +1,29 @@
+# File temporanei macOS
+.DS_Store
+
+# Copie automatiche di Jupyter
+.ipynb_checkpoints/
+
+# Cache e ambienti virtuali Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Configurazioni locali con eventuali credenziali
+.env
+.env.*
+!.env.example
+
+# Dataset grandi: da distribuire separatamente
+/inputs.csv
+/outputs.csv
+/transactions.csv
+/mapAddr2Ids8708820.csv
+
+# Copie e archivio della consegna
+/consegna_BetFlow/
+/consegna_BetFlow.zip
+
+# Versione precedente della relazione
+/progetto_BetFlowV2.pdf
